@@ -4,6 +4,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+// Including .env file
+require('dotenv').config();
 
 // Creating routers which are linked to files in routes folder
 // MUST ADD ROUTER CONNECTIONS AS WE ADD ROUTE FILES HERE
